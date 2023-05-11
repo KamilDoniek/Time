@@ -1,0 +1,15 @@
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.csproj.AssemblyReference.cache
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.AssemblyInfoInputs.cache
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.AssemblyInfo.cs
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.csproj.CoreCompileInputs.cache
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/bin/Debug/net6.0/TimeTimePeriod
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/bin/Debug/net6.0/TimeTimePeriod.deps.json
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/bin/Debug/net6.0/TimeTimePeriod.runtimeconfig.json
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/bin/Debug/net6.0/TimeTimePeriod.dll
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/bin/Debug/net6.0/TimeTimePeriod.pdb
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.dll
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/refint/TimeTimePeriod.dll
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.pdb
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/TimeTimePeriod.genruntimeconfig.cache
+/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/Debug/net6.0/ref/TimeTimePeriod.dll
