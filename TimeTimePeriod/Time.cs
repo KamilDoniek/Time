@@ -57,7 +57,7 @@ public struct Time :IEquatable<Time> , IComparable<Time>
 
     public override string ToString()
     {
-        return $"{Hours}:{Minutes}:{Seconds}";
+        return $"{Hours:D2}:{Minutes:D2}:{Seconds:D2}";
     }
 
     public bool Equals(Time other)
