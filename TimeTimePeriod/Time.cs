@@ -107,10 +107,11 @@ public struct Time :IEquatable<Time> , IComparable<Time>
     {
         return t1.CompareTo(t2) >= 0 ;
     }
-    // public static Time operator +(Time time, TimePeriod timePeriod)
-    // {
-    //     var totalSeconds = ((time.Hours * 3600 + time.Minutes * 60 + time.Seconds) + timePeriod.TotalSeconds) % (24 * 3600);
-    //     return new Time((byte)(totalSeconds / 3600), (byte)((totalSeconds % 3600) / 60), (byte)(totalSeconds % 60));
-    // }
-
+    public static Time operator +(Time time, TimePeriod timePeriod)
+    {
+        var totalSeconds = ((time.Hours * 3600 + time.Minutes * 60 + time.Seconds) + timePeriod.TotalSeconds) % (24 * 3600);
+        return new Time((byte)(totalSeconds / 3600), (byte)((totalSeconds % 3600) / 60), (byte)(totalSeconds % 60));
+    }
+   
+    
 }

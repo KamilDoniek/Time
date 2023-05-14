@@ -2,7 +2,7 @@ namespace TimeTimePeriod;
 
 public struct TimePeriod:IEquatable<TimePeriod>,IComparable<TimePeriod>
 {
-    private  long  TotalSeconds;
+    public long  TotalSeconds;
 
     public TimePeriod(long hours , long minutes , long seconds)
     {
@@ -49,5 +49,41 @@ public struct TimePeriod:IEquatable<TimePeriod>,IComparable<TimePeriod>
     public int CompareTo(TimePeriod other)
     {
         return TotalSeconds.CompareTo(other.TotalSeconds);
+    }
+    public  static bool operator ==(TimePeriod Time1, TimePeriod Time2)
+    {
+        return Time1.Equels(Time2);
+    }
+    public  static bool operator !=(TimePeriod Time1, TimePeriod Time2)
+    {
+        return !Time1.Equels(Time2);
+    }
+    public  static bool operator <(TimePeriod Time1, TimePeriod Time2)
+    {
+        return Time1<Time2;
+    }
+    public  static bool operator <=(TimePeriod Time1, TimePeriod Time2)
+    {
+        return Time1<=Time2;
+    }
+    public  static bool operator >(TimePeriod Time1, TimePeriod Time2)
+    {
+        return Time1>Time2;
+    }
+    public  static bool operator >=(TimePeriod Time1, TimePeriod Time2)
+    {
+        return Time1>=Time2;
+    }
+    public TimePeriod Plus(TimePeriod other)
+    {
+        return new TimePeriod(TotalSeconds + other.TotalSeconds);
+    }
+    public static TimePeriod operator +(TimePeriod Time1, TimePeriod Time2)
+    {
+        return new TimePeriod(Time1.TotalSeconds +Time2.TotalSeconds);
+    }
+    public static TimePeriod operator -(TimePeriod Time1, TimePeriod Time2)
+    {
+        return new TimePeriod(Time1.TotalSeconds -Time2.TotalSeconds);
     }
 }
