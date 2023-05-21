@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/TimeTimePeriod.csproj",
+      "projectUniqueName": "/Users/kamildoniek/Desktop/projelt/TimeTimePeriod/TimeTimePeriod/TimeTimePeriod.csproj",
       "projectName": "TimeTimePeriod",
-      "projectPath": "/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/TimeTimePeriod.csproj",
+      "projectPath": "/Users/kamildoniek/Desktop/projelt/TimeTimePeriod/TimeTimePeriod/TimeTimePeriod.csproj",
       "packagesPath": "/Users/kamildoniek/.nuget/packages/",
-      "outputPath": "/Users/kamildoniek/RiderProjects/TimeTimePeriod/TimeTimePeriod/obj/",
+      "outputPath": "/Users/kamildoniek/Desktop/projelt/TimeTimePeriod/TimeTimePeriod/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kamildoniek/.nuget/NuGet/NuGet.Config"
